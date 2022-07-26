@@ -7,6 +7,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const theme = require("shiki/themes/material-default.json");
 const { remarkCodeHike } = require("@code-hike/mdx");
 
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Terra Docs',
@@ -44,6 +47,8 @@ const config = {
           editUrl:
             'https://github.com/evanorti/new-docs',
         },
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
         blog: false,
         theme: {
           customCss: [
@@ -53,6 +58,16 @@ const config = {
         },
       }),
     ],
+  ],
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
   ],
 
   themes: ["mdx-v2"],
