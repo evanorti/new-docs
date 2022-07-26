@@ -68,14 +68,14 @@ tip
 info
 caution
 danger
+```
 
 ### Details
 
 For dropdown detains, use standard HTML syntax:
 
-```
 <details> 
-<summary> Title </summary>
+<summary> example </summary>
 <p>
 
 ````
@@ -83,7 +83,18 @@ hidden content
 ````
 </p>
 </details>
+
+````
+<details> 
+<summary> Title </summary>
+<p>
+
 ```
+hidden content
+```
+</p>
+</details>
+````
 
 ## Rebass
 
