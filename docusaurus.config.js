@@ -47,8 +47,6 @@ const config = {
           editUrl:
             'https://github.com/evanorti/new-docs',
         },
-        remarkPlugins: [math],
-        rehypePlugins: [katex],
         blog: false,
         theme: {
           customCss: [
@@ -56,6 +54,8 @@ const config = {
             require.resolve("./src/css/custom.css"),
           ],
         },
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
       }),
     ],
   ],
