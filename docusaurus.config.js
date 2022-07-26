@@ -43,6 +43,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/evanorti/new-docs',
+          //remarkPlugins: []
         },
         blog: false,
         theme: {
@@ -64,19 +65,19 @@ const config = {
         title: 'Terra docs',
         logo: {
           alt: 'Terra docs',
-          src: 'img/logo.svg',
+          src: 'img/favicon.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'Docs',
+            label: 'Home',
           },
           {
             href: 'https://terra.money', //front-end URL
             label: 'Terra.money',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/evanorti/new-docs',
