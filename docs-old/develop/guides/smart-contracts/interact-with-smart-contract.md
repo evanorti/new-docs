@@ -226,4 +226,4 @@ So far you've walked through a simple example of a smart contract, that modifies
 
 Check out a couple more examples of smart contracts using Terra's smart contract [repo](https://github.com/terra-money/cosmwasm-contracts).
 
-To learn how to build a dApp, visit the [Terrain tutorial](../../terrain/initial-setup.md).
+To learn how to build a dApp, visit the [Terrain tutorial](../../terrain/initial-setup.mdx).
