@@ -39,3 +39,33 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+
+## Syntax
+
+### Admonitions: 
+
+```
+import Admonition from '@theme/Admonition';
+
+<Admonition type="note" title="Your Title">
+
+Some **content** with _markdown_ `syntax`.
+
+</Admonition>
+
+```
+
+### Details
+
+````
+<details> 
+<summary> Title </summary>
+<p>
+
+```
+hidden content
+```
+</p>
+</details>
+````
