@@ -3,7 +3,7 @@
 Use the following common examples to learn how to use Terra.js. If this is your first time using Terra.js, use the [Terra.js installation guide](./getting-started.md).
 
 :::{tip}
-If you are new to Terra and don't know where to start, visit the [getting started guide](../get-started.md).
+If you are new to Terra and don't know where to start, visit the [getting started guide](../../../docs/develop/get-started.mdx).
 :::
 
 ## Configuring LCDClient

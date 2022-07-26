@@ -32,7 +32,7 @@ The post-attack snapshot will be taken at Terra Classic block 7790000. It is rec
 
 For general information on vesting, visit the [vesting overview](../learn/protocol.md#vesting).
 
-For a more in-depth look at vesting, visit the [vesting page](../develop/vesting.md).
+For a more in-depth look at vesting, visit the [vesting page](../../docs/develop/vesting.mdx).
 
 ### How can I see my Luna that is still locked in vesting?
 

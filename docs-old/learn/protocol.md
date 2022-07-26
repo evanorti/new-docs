@@ -70,7 +70,7 @@ Luna that is in the vesting state can still be [delegated, redeleagated, or unde
 
 To learn how to view vesting Luna in your wallet, visit the [Terra Station vesting guide](./terra-station/vesting.md).
 
-To learn more about vesting, visit the [How vesting works](../develop/vesting.md). 
+To learn more about vesting, visit the [How vesting works](../../docs/develop/vesting.mdx). 
 
 ## Validators
 

@@ -13,7 +13,7 @@ LocalTerra has the following advantages over a public testnet:
 
 ::: {admonition} Terrain and LocalTerra
 :class: tip
-If you are using LocalTerra with Terrain, use the [Terrain and LocalTerra install guide](../terrain/using-terrain-localterra.md).
+If you are using LocalTerra with Terrain, use the [Terrain and LocalTerra install guide](../terrain/using-terrain-localterra.mdx).
 :::
 
 ## Contents <img src="/img/Glossary.svg" height="30px">

@@ -1,6 +1,6 @@
 # Build a dApp
 
-Use these guides to setup your environment and build a dApp. If this is your first time building on Terra, use the [quickstart guide](../terrain/README.md) to set up your environment.
+Use these guides to setup your environment and build a dApp. If this is your first time building on Terra, use the [quickstart guide](../terrain/README.mdx) to set up your environment.
 
 :::::::{grid}
 :gutter: 3

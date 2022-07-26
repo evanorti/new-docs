@@ -8,7 +8,7 @@
 
 ::: {admonition} Terrain and LocalTerra
 :class: tip
-If you are using LocalTerra with Terrain, use the [Terrain and LocalTerra install guide](../terrain/using-terrain-localterra.md).
+If you are using LocalTerra with Terrain, use the [Terrain and LocalTerra install guide](../terrain/using-terrain-localterra.mdx).
 :::
 
 ## Installation
