@@ -72,7 +72,7 @@ const config = {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'Home',
+            label: 'Get started',
           },
           {
             href: 'https://terra.money', //front-end URL

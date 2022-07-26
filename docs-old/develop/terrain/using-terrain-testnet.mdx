@@ -1,3 +1,5 @@
+import Admonition from '@theme/Admonition';
+
 # Use Terrain with the testnet
 
 The [Pisco testnet](../../learn/glossary.md#testnet) is used for testing transactions on the Terra network.
@@ -14,9 +16,12 @@ After creating a Pisco wallet and storing the seed phrase, request funds from th
 
 https://faucet.terra.money
 
-:::{danger}
-Make sure you have your seed phrase stored somewhere since you will need it to complete this tutorial.
-:::
+
+<Admonition type="danger">
+
+Make sure you have your seed phrase stored somewhere. You will need it to complete this tutorial.
+
+</Admonition>
 
 # Counter tutorial
 
@@ -79,7 +84,9 @@ The deploy command performs the following steps automatically:
 - Uploads counter smart contract to testnet.
 - Instantiates the deployed smart contract.
 
-:::{warning}
+
+<Admonition type="caution" title="Warning">
+
 If you get the following error:
 
 ```
@@ -87,7 +94,8 @@ CLIError: account sequence mismatch, expected 1, got 0: incorrect account sequen
 ```
 
 Wait a few seconds then try the deploy command again.
-:::
+
+</Admonition>
 
 ## 3. Generate TypeScript client
 
@@ -109,21 +117,21 @@ The Terrain template comes with several predefined helpers in `lib/index.js`. Us
 
 2. With the console open, increment the counter by running the following:
 
-   ```JavaScript
-   await lib.increment();
-   ```
+```JavaScript
+await lib.increment();
+```
 
-   You can get the current count by using:
+You can get the current count by using:
 
-   ```JavaScript
-   await lib.getCount()
-   ```
+```JavaScript
+await lib.getCount()
+```
 
 3. After incrementing once, `await lib.getCount()` will return:
 
-   ```JSON
-   { count: 1 }
-   ```
+```JSON
+{ count: 1 }
+```
 
 ## 5. Front-end scaffolding
 
@@ -133,11 +141,11 @@ Terrain also scaffolds a very simple front-end.
 
 2. To use the front end, run the following commands in order.
 
-   ```
-   cd frontend
-   npm install
-   npm start
-   ```
+```
+cd frontend
+npm install
+npm start
+```
 
 3. With `testnet` selected in Terra Station you can now increment and reset the counter from the front end.
 

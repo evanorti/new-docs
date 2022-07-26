@@ -1,3 +1,5 @@
+import Admonition from '@theme/Admonition';
+
 # Terrain initial setup
 
 This tutorial uses a Terra-specific development tool called Terrain.
@@ -47,8 +49,8 @@ Use npm to install the terrain command-line tool globally:
 npm install -g @terra-money/terrain
 ```
 
-:::{admonition} Check your Terrain version
-:class: warning
+
+<Admonition type="caution" title="Check your Terrain version">
 
 Make sure you are using the latest version of Terrain. Previous versions may cause errors. 
 
@@ -63,7 +65,7 @@ npm uninstall -g @iboss/terrain
 npm install -g @terra-money/terrain
 ```
 
-:::
+</Admonition>
 
 
 ## Next steps: LocalTerra or Testnet
@@ -72,10 +74,13 @@ Depending on your setup, you can either install LocalTerra or use the Pisco test
 
 LocalTerra is a development environment designed to make it easy for smart contract developers to test their contracts locally. Terrain can also interact with the Terra blockchain's live testing environment using the Pisco testnet.
 
-::: {caution}
-Localterra may not work properly on machines with less than 16 GB of RAM. Please use the [Pisco testnet](using-terrain-testnet.md) if your device does not meet this requirement.
-:::
+<Admonition type="caution">
 
+Localterra may not work properly on machines with less than 16 GB of RAM. Please use the [Pisco testnet](using-terrain-testnet.md) if your device does not meet this requirement.
+
+</Admonition>
+
+{/*
 :::::::{grid}
 :gutter: 3
 
@@ -104,3 +109,5 @@ Localterra may not work properly on machines with less than 16 GB of RAM. Please
 :::
 
 :::::::
+
+*/}
