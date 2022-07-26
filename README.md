@@ -1,6 +1,8 @@
-# Website
+# Terra Docs
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+## Setup
 
 ### Installation
 
@@ -43,7 +45,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ## Syntax
 
-### Admonitions: 
+### Admonitions
+
+You can use admonitions by importing them and using the following syntax:
 
 ```
 import Admonition from '@theme/Admonition';
@@ -56,16 +60,35 @@ Some **content** with _markdown_ `syntax`.
 
 ```
 
+Admonition types:
+
+```
+note
+tip
+info
+caution
+danger
+
 ### Details
 
-````
+For dropdown detains, use standard HTML syntax:
+
+```
 <details> 
 <summary> Title </summary>
 <p>
 
-```
+````
 hidden content
-```
+````
 </p>
 </details>
-````
+```
+
+## Rebass
+
+A bootstrap-style UI components library. 
+
+Usage:
+
+https://rebassjs.org/
