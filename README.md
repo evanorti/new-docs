@@ -96,6 +96,16 @@ hidden content
 </details>
 ````
 
+### Notes
+
+```
+
+{/*
+this is a note in mdx
+*/}
+
+```
+
 ## Rebass
 
 A bootstrap-style UI components library. 
@@ -103,3 +113,4 @@ A bootstrap-style UI components library.
 Usage:
 
 https://rebassjs.org/
+
