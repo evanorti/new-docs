@@ -72,7 +72,9 @@ terrad tx bank send \
     --dry-run
 ```
 
-::: {dropdown} Example: simulate a Luna transfer:
+<details> 
+<summary> Example: simulate a Luna transfer: </summary>
+<p>
 
 ```bash
 terrad tx bank send \
@@ -82,8 +84,8 @@ terrad tx bank send \
     --chain-id=pisco-1 \
     --dry-run
 ```
-
-:::
+</p>
+</details>
 
 ### Generating a transaction without sending
 
@@ -104,8 +106,9 @@ terrad tx sign \
     --from=<address> \
     unsignedSendTx.json > signedSendTx.json
 ```
-
-::: {dropdown} Example: Sign an unsigned transaction
+<details> 
+<summary> Example: Sign an unsigned transaction </summary>
+<p>
 
 ```bash
 terrad tx sign \
@@ -164,7 +167,8 @@ A healthy response should looks simillar to the following:
 }
 ```
 
-:::
+</p>
+</details>
 
 You can validate the transaction's signatures by typing the following:
 
