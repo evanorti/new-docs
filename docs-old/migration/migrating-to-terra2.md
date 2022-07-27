@@ -34,7 +34,7 @@ Terra 2.0 has removed the oracle module. Any queries to fetch ExchangeRates from
 
 ### 5. Terra.js changes
 
-Outside of the deprecation of the treasury, market, and oracle modules, Terra.js functionality remains relatively unchanged. There are a few additions to allow for legacy commands which are explained in [Using Terra Classic](../develop/terra-js/terra-classic.md). 
+Outside of the deprecation of the treasury, market, and oracle modules, Terra.js functionality remains relatively unchanged. There are a few additions to allow for legacy commands which are explained in [Using Terra Classic](../develop/terra-js/terra-classic.mdx). 
 
 :::{admonition} Update Terra.js and Wallet Provider
 :class: danger
@@ -46,7 +46,7 @@ Apps remaining on the Terra Classic chain should not upgrade.
 
 ## Upgrade Cosmwasm
 
-Update your Cosmwasm version to 1.0 using the [Cosmwasm upgrade guide](../develop/guides/smart-contracts/upgrade-cosmwasm.md).
+Update your Cosmwasm version to 1.0 using the [Cosmwasm upgrade guide](../develop/guides/smart-contracts/upgrade-cosmwasm.mdx).
 
 ## Examples of Deprecated Functionality
 

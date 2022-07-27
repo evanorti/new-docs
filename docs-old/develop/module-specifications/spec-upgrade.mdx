@@ -1,14 +1,20 @@
+import Admonition from '@theme/Admonition';
+
 # Upgrade
 
-:::{Important}
+<Admonition type="info">
+
 Terra's upgrade module inherits from the Cosmos SDK's [`upgrade`](https://docs.cosmos.network/master/modules/upgrade/) module. This document is a stub and covers mainly important Terra-specific notes about how it is used.
-:::
+
+</Admonition>
 
 The upgrade module allows live chains to be upgraded with breaking changes smoothly. 
 
 ## State
 
-The x/upgrade module is relatively straightforward. 
+The x/upgrade module is relatively straightforward:
+
+```
 
 The state contains the currently active upgrade Plan (if one exists) by key 0x0 and if a Plan is marked as "done" by key 0x1. 
 
@@ -22,3 +28,5 @@ Plan: 0x0 -> Plan
 Done: 0x1 | byte(plan name) -> BigEndian(Block Height)
 ConsensusVersion: 0x2 | byte(module name) -> BigEndian(Module Consensus Version)
 ProtocolVersion: 0x3 -> BigEndian(Protocol Version)
+
+```

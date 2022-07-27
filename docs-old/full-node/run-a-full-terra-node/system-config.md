@@ -5,7 +5,7 @@
 This guide has been tested against Linux distributions only. To ensure a successful production environment setup, consider using a Linux system.
 :::
 
-Running a full Terra node is a resource-intensive process that requires a persistent server. If you want to use Terra without downloading the entire blockchain, use [Terra Station](https://station.terra.money/). If you want to set up a local, WASM-enabled, private testnet for smart contracts, visit [install LocalTerra](../../develop/localterra/README.md).
+Running a full Terra node is a resource-intensive process that requires a persistent server. If you want to use Terra without downloading the entire blockchain, use [Terra Station](https://station.terra.money/). If you want to set up a local, WASM-enabled, private testnet for smart contracts, visit [install LocalTerra](../../develop/localterra/README.mdx).
 
 ## Hardware Requirements
 
@@ -73,7 +73,7 @@ Most validators will only need to open the following port:
 
 Additional ports:
 
-- `1317`: The default port for the [Lite Client Daemon](../../develop/guides/start-lcd.md) (LCD), which can be executed by `terrad rest-server`. The LCD provides an HTTP RESTful API layer to allow applications and services to interact with your `terrad` instance through RPC. For usage examples, see [Terra REST API](https://phoenix-lcd.terra.dev/swagger/). You don't need to open this port unless you have use for it.
+- `1317`: The default port for the [Lite Client Daemon](../../develop/guides/start-lcd.mdx) (LCD), which can be executed by `terrad rest-server`. The LCD provides an HTTP RESTful API layer to allow applications and services to interact with your `terrad` instance through RPC. For usage examples, see [Terra REST API](https://phoenix-lcd.terra.dev/swagger/). You don't need to open this port unless you have use for it.
 
 - `26660`: The default port for interacting with the [Prometheus](https://prometheus.io) database, which can be used to monitor the environment. In the default configuration, this port is not open.
 
