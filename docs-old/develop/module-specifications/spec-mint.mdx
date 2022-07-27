@@ -1,8 +1,12 @@
+import Admonition from '@theme/Admonition';
+
 # Mint
 
-:::{Important}
+<Admonition type="info">
+
 Terra's mint module inherits from the Cosmos SDK's [`mint`](https://docs.cosmos.network/master/modules/mint/) module. This document is a stub and covers mainly important Terra-specific notes about how it is used.
-:::
+
+</Admonition>
 
 The mint module is in charge of the creation of new Luna through minting. At the beginning of every block, new Luna is released by the mint module and sent to the fee collector account to be distributed to stakers as rewards. 
 

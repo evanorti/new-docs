@@ -1,8 +1,12 @@
-# Governance <img src="/img/Governance.svg" height="40px">
+import Admonition from '@theme/Admonition';
 
-:::{Important}
+# Governance
+
+<Admonition type="info">
+
 Terra's Governance module inherits from Cosmos SDK's [`gov`](https://docs.cosmos.network/master/modules/gov/) module. This document is a stub, and covers mainly important Terra-specific notes about how it is used.
-:::
+
+</Admonition>
 
 Governance is the process through which members of the Terra community can effect change on the protocol by submitting petitions known as "proposals" and arriving at a popular consensus when a threshold amount of support has been reached. The proposal structure is versatile and allows for holders of staked Luna (those who have an interest in the long-term viability of the network) to voice their opinion on both blockchain parameter updates as well as the future development of the Terra protocol.
 
@@ -60,9 +64,11 @@ $$\frac{Yes}{Yes + No + NoWithVeto} \gt T$$
 
 If any of the previous conditions are not met, the proposal is rejected. Proposals that get rejected with veto do not get their deposits refunded. The parameters `quorum`, `veto`, and `threshold` exist as blockchain parameters within the Governance module.
 
-::: {warning}
+<Admonition type="warning">
+
 Deposits will not be refunded for proposals that are rejected with veto, do not meet quorum, or fail to reach the minimum deposit during the deposit period. Non-refunded deposits are burned.
-:::
+
+</Admonition>
 
 ### Proposal Implementation
 
@@ -165,9 +171,11 @@ Parameter Change Proposals are a special type of proposal which, once passed, wi
 
 This type of proposal requires validators to update their node software to a new version at a specified block height.
 
-:::{danger}
+<Admonition type="danger">
+
 Software upgrade proposals can be difficult to execute. Exercise caution when using this proposal type, as you may lose your deposit due to an incorrect proposal. 
-:::
+
+</Admonition>
 
 ## Transitions
 

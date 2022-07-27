@@ -1,8 +1,12 @@
+import Admonition from '@theme/Admonition';
+
 # Slashing
 
-:::{Important}
+<Admonition type="info">
+
 Terra's slashing module inherits from the Cosmos SDK's [`slashing`](https://docs.cosmos.network/master/modules/slashing/) module. This document is a stub and covers mainly important Terra-specific notes about how it is used.
-:::
+
+</Admonition>
 
 The slashing module enables Terra to disincentivize any attributable action by a protocol-recognized actor with value at stake by penalizing them. The penalty is called [slashing](../../learn/glossary.md#slashing). Terra mainly uses the [`Staking`](spec-staking.md) module to slash when violating validator responsibilities. This module manages lower-level penalties at the Tendermint consensus level, such as double-signing.
 
@@ -119,9 +123,11 @@ greater than `minHeight` and the validator's `MissedBlocksCounter` is greater th
 for `DowntimeJailDuration`, and have the following values reset:
 `MissedBlocksBitArray`, `MissedBlocksCounter`, and `IndexOffset`.
 
-:::{Important}
+<Admonition type="note">
+
 Liveness slashes do not lead to tombstombing.
-:::
+
+</Admonition>
 
 ```go
 height := block.Height
