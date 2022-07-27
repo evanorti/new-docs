@@ -257,7 +257,7 @@ To avoid user confusion and prevent the sending of funds to the wrong accounts, 
 
 ## Multisig guide
 
-For questions regarding multisig wallets, refer to the [multisig guide](../develop/guides/sign-with-multisig.md).
+For questions regarding multisig wallets, refer to the [multisig guide](../develop/guides/sign-with-multisig.mdx).
 
 ## Base pairs
 
