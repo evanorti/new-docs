@@ -46,7 +46,7 @@ Apps remaining on the Terra Classic chain should not upgrade.
 
 ## Upgrade Cosmwasm
 
-Update your Cosmwasm version to 1.0 using the [Cosmwasm upgrade guide](../develop/guides/smart-contracts/upgrade-cosmwasm.md).
+Update your Cosmwasm version to 1.0 using the [Cosmwasm upgrade guide](../develop/guides/smart-contracts/upgrade-cosmwasm.mdx).
 
 ## Examples of Deprecated Functionality
 
