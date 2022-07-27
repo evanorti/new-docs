@@ -72,7 +72,7 @@ danger
 
 ### Details
 
-For dropdown detains, use standard HTML syntax:
+For dropdown details, use standard HTML syntax:
 
 <details> 
 <summary> example </summary>
