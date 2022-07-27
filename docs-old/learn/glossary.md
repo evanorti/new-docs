@@ -98,7 +98,7 @@ When a vote fails to be included in consensus.
 
 ## Module
 
-A section of the Terra core that represents a particular function of the Terra protocol. Visit the [Terra core module specifications](../develop/module-specifications/README.md) for more information.
+A section of the Terra core that represents a particular function of the Terra protocol. Visit the [Terra core module specifications](../develop/module-specifications/README.mdx) for more information.
 
 ## Phoenix-1
 
@@ -156,7 +156,7 @@ The consensus procedure used by the Terra protocol. First, a validator proposes 
 
 The official source code for the Terra protocol.
 
-For more information on the Terra core, see [Terra core modules](../develop/module-specifications/README.md).
+For more information on the Terra core, see [Terra core modules](../develop/module-specifications/README.mdx).
 
 ## Terra mainnet
 
